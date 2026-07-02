@@ -3,7 +3,7 @@
 # EurKey (Windows Installer Rebuild)
 
 **Unofficial rebuild of [EurKEY v1.3](https://eurkey.steffen.bruentjen.eu/)
-by Steffen Brüntjen — same layout, fixed Windows installer.**
+by Steffen Brüntjen: same layout, fixed Windows installer.**
 
 This is **not** a modified layout. The keymap is identical to the
 official EurKEY v1.3. The only difference is the build pipeline used
@@ -11,9 +11,10 @@ to create the Windows installer.
 
 ## Why this exists
 
-The official Windows installer had several issues for me:
+The official Windows installer had several issues reported:
 
-- Doesn't register correctly in the Windows language bar
+- Problems with keyboard shortcuts not working
+- May not register correctly in the Windows language bar
 - Fails to install on ARM64 Windows
 - Keymaps could not be loaded directly into [KbdEdit](http://kbdedit.com/)
 
