@@ -40,7 +40,7 @@ This repository provides a compiled Windows installer (`.exe`). If you want to v
 
 When I last checked, 68 of 69 engines reported the file as clean. The single flag came from Trapmine, which uses machine-learning heuristics and is [well known for false positives on legitimate installers](https://www.google.com/search?q=Trapmine+Malicious.moderate.ml.score+false+positive). No major antivirus vendor flagged it.
 
-If you're not comfortable running the installer regardless, the KbdEdit source `.klc` is also in this repo which you can inspect directly and build the installer with kbdedit yourself.
+If you're not comfortable running the installer regardless, the KbdEdit source `.kbe` is also in this repo which you can use and build the installer with kbdedit yourself.
 
 ### Hashes
 ```
