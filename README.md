@@ -34,6 +34,28 @@ This installer works correctly on the systems I tested, including ARM64.
 
  4. Uninstall: Run the installer again and choose the uninstall option.
 
+## Security / Virus Check
+
+This repository provides a compiled Windows installer (`.exe`). If you want to verify it before running it, upload it to **[VirusTotal.com](https://www.virustotal.com/)** — it will be scanned by 70+ antivirus engines simultaneously.
+
+When I last checked, 68 of 69 engines reported the file as clean. The single flag came from Trapmine, which uses machine-learning heuristics and is [well known for false positives on legitimate installers](https://www.google.com/search?q=Trapmine+Malicious.moderate.ml.score+false+positive). No major antivirus vendor flagged it.
+
+If you're not comfortable running the installer regardless, the KbdEdit source `.klc` is also in this repo which you can inspect directly and build the installer with kbdedit yourself.
+
+### Hashes
+```
+File: C:\Program Files (x86)\KbdSoft\KbdEdit 25.1.0 Premium\KbdEditInstallerEurKey_rpnfan.exe
+Size: 1,61 MB (1.690.624 bytes)
+Date: 21.06.2026 20:53:35
+
+CRC-32   16c879b1
+MD5      1bc72b609ad8b8cfdc5fbb509745c542
+SHA-1    0ccd22192b545c44d5ed5e71fa2e22aa41f16070
+SHA-256  3e26b2cc0ec536bce24b4799e5244f51718982831c4af558e2aeec46f19359dc
+SHA-384  03dd94acef9cae2b047340a62015f1f51ae165497abc3c1c539c16067ece31a0e071cfaea9535ef23638d6feaaec21a2
+SHA-512  8f9b1f21a00ec2520f33caf0546346a81dd21569d78315f7d53cd786b64f0c8605b314bdfd5b33c061d6e19cbcd5d07970ce303d85f30c271d01a3fd2de31363
+```
+
 ## Credit & License
 
 The EurKEY layout is © Steffen Brüntjen, licensed under
