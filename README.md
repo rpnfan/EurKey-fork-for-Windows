@@ -15,6 +15,7 @@ The official Windows installer had several issues reported:
 
 - Problems with keyboard shortcuts not working
 - May not register correctly in the Windows language bar
+- Math symbols from beta 1.3 not working
 - Fails to install on ARM64 Windows
 - Keymaps could not be loaded directly into [KbdEdit](http://kbdedit.com/)
 
